@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-009</title>
+</head>
+<body>
+    <h1>Comentários em JavaScript</h1>
+    <p>Para comentar em JavaScript basta colocar: //aqui vai um comentário</p>
+    <p id="demo"></p>
+
+    <h1 id="myh"></h1>
+    <p>Podemos colocar cometário em várias linhas bastando colocar /*cometários em várias linhas*/</p>
+    <p id="myp"></p>
+
+    <script>
+        let x = 5; //Declare x, atribua-lhe o valor de 5
+        let y = x + 2; //Declare y, dê-lhe o valor de x + 2 
+
+        //Escreva y para a demonstração:
+        document.getElementById("demo").innerHTML = y;
+
+        /*
+        O código abaixo irá alterar
+        o título com id = "myH"
+        e o parágrafo com id = "myP"
+        */
+       document.getElementById("myh").innerHTML = "Comentários JavaScript 02"
+       document.getElementById("myp").innerHTML = "Aqui vai um parágrafo..."
+    </script>
+</body>
+</html>

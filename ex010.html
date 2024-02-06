@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-010</title>
+</head>
+<body>
+    <h1>Variáveis em JavaScript</h1>
+    <p>Neste exemplo, x, y e z são variáveis.</p>
+    <p id="demo"></p>
+    
+    <H1>Nota</H1>
+    <p>O que é <strong>var</strong> foi utilizada palavra-chave em todo o código JavaScript de 1995 a 2015.</p>
+    <p>O que é <strong>let</strong> E a const As palavras-chave foram adicionadas ao JavaScript em 2015.</p>
+    <p> O que é <strong>var</strong> a palavra-chave só deve ser usada em código escrito para navegadores mais antigos.</p>
+
+    <h1>Quando usar var, deixar ou const?</h1>
+    <p>1. Sempre declare variáveis</p>
+    <p>2. Sempre use const se o valor não deve ser alterado</p>
+    <p>3. Sempre use const se o tipo não deve ser alterado (Arrays e Objects)</p>
+    <p>4. Apenas o uso let se você não pode usar const</p>
+    <p>5. Apenas o uso var se você tem que suportar navegadores antigos.</p>
+
+    <script>
+        var x = 5;
+        var y = 6;
+        var z = x + y;
+        document.getElementById("demo").innerHTML = "O valor de z é:" + z;
+    </script>
+</body>
+</html>
