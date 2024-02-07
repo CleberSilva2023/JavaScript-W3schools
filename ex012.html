@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-012</title>
+</head>
+<body>
+    <h1>JavaScript const</h1>
+    <p>Declarar uma matriz constante NÃO torna os elementos imutáveis:</p>
+    <p id="demo"></p>
+
+    <script>
+        // Criar uma matriz:
+        const cars = ["Tesla", " ", "Volvo", " ", "BMW", " "];
+
+        //Alterar um elemento:
+        cars[0] = "Toyota";
+
+        //Adicionar um elemento:
+        cars.push("Audi");
+
+        //Visualizar a matriz:
+        document.getElementById("demo").innerHTML = cars;
+    </script>
+</body>
+</html>
