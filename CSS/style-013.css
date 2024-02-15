@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+span {
+    font-size: 15pt;
+    color: red;
+}
+
+b {
+    color: red;
+}
+
+#aviso {
+    background-color: rgba(255, 255, 0, 0.5);
+    padding: 20pt;
+}
