@@ -36,3 +36,9 @@ th,td {
     font-size: 15pt;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Configução do estilo da "NOTA*/
+#nota {
+    background-color: rgba(255, 255, 0, 0.7);
+    padding: 10px;
+}
