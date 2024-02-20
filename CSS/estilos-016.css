@@ -2,12 +2,52 @@
 
 /*GLOBAL*/
 * {
-    padding: 20px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Configução do estilo da "NOTA*/
 #nota {
     background-color: rgba(255, 255, 0, 0.7);
     padding: 10px;
+}
+
+/* Configuções de fonstes*/
+p {
+    font-size: 15pt;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+/* CONFIGUÇÕES DA TABELA*/
+table {
+    width: 700px;
+    text-align: center;
+    background-color: aqua;
+    border-collapse: collapse;
+}
+tr, td {
+    border: 1px solid black;
+    padding: 5px 30px 5px 30px;
+}
+
+/* ESTILO DO TEXTO PRINCIPAL*/
+div#texto {
+    padding: 20px;
+    width: 700px;
+    background-color: white;
 }
