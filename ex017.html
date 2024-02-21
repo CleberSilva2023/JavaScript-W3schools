@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos-017.css">
+    <title>JavaScript-017</title>
+</head>
+<body>
+    <div id="texto">
+        <h1>Tipos de dados JavaScript</h1>
+        <h2>JavaScript tem 8 tipos de dados</h2>
+        <ol>
+            <li>String</li>
+            <li>Número</li>
+            <li>Bigint</li>
+            <li>Booleano</li>
+            <li>Indefinido</li>
+            <li>Nulo</li>
+            <li>Símbolo</li>
+            <li>Objeto</li>
+        </ol>
+
+        <h2>O tipo de dados do objeto</h2>
+        <p>O tipo de dados do objeto pode conter:</p>
+        <ol>
+            <li>Um objeto</li>
+            <li>Uma matriz</li>
+            <li>Uma data</li>
+        </ol>
+
+        <h1>Exemplos</h1>
+        <img src="Prints/ex017-print.png" alt="print de exemplo">
+
+        <div id="nota">
+            <h1>NOTA</h1>
+            <p>Uma variável JavaScript pode conter qualquer tipo de dados.</p>
+        </div>
+
+        <h1>O conceito de tipos de dados</h1>
+        <p>Na programação, os tipos de dados são um conceito importante.</p>
+        <p>Para poder operar com variáveis, é importante saber algo sobre o tipo.</p>
+        <p>Sem tipos de dados, um computador não pode resolver isso com segurança:</p>
+        <img src="Prints/ex017-print2.png" alt="print do segundo exemplo">
+        <p>Faz algum sentido adicionar “Volvo” aos dezesseis? Produzirá um erro ou produzirá um resultado?</p>
+        <p>JavaScript tratará o exemplo acima como:</p>
+        <img src="Prints/ex017-print3.png" alt="print da terceiro exemplo">
+
+        <div id="nota">
+            <h1>Observação</h1>
+            <p>Ao adicionar um número e uma string, o JavaScript tratará o número como uma string.</p>
+        </div>
+
+        <h1>Exemplo</h1>
+        <h2>JavaScript</h2>
+        <p>Ao adicionar um número e uma cadeia de caracteres, o JavaScript tratará o número como uma cadeia de caracteres.</p>
+        <p id="demo"></p>
+        <p>Ao adicionar uma cadeia de caracteres e um número, o JavaScript tratará o número como uma cadeia de caracteres.</p>
+        <p id="demo2"></p>
+        <p>JavaScript avalia expressões da esquerda para a direita. Sequências diferentes podem produzir resultados diferentes:</p>
+        <h1>JavaScript:</h1>
+        <p>O JavaScript avalia as expressões da esquerda para a direita. Sequências diferentes podem produzir resultados diferentes:</p>
+        <p id="demo3"></p>
+        <p>O JavaScript avalia as expressões da esquerda para a direita. Sequências diferentes podem produzir resultados diferentes:</p>
+        <p id="demo4"></p>
+        <p>No primeiro exemplo, o JavaScript trata 16 e 4 como números, até chegar a “Volvo”.</p>
+        <p>No segundo exemplo, como o primeiro operando é uma string, todos os operandos são tratados como strings.</p>
+
+        <h1>Os tipos de JavaScript são dinâmicos</h1>
+        <p>JavaScript possui tipos dinâmicos. Isso significa que a mesma variável pode ser usada para armazenar diferentes tipos de dados:</p>
+        <h2>Tipos de dados JavaScript</h2>
+        <p>O JavaScript tem tipos dinâmicos. Isto significa que a mesma variável pode ser utilizada para conter diferentes tipos de dados:</p>
+        <p id="demo5"></p>
+
+        <h1>Sequências JavaScript</h1>
+        <p>Uma string (ou string de texto) é uma série de caracteres como "John Doe".</p>
+        <p>Strings são escritas entre aspas. Você pode usar aspas simples ou duplas:</p>
+        <h1>Cadeias de caracteres JavaScript</h1>
+        <p>As cadeias de caracteres são escritas com aspas. Pode utilizar aspas simples ou duplas:</p>
+        <p id="demo6"></p>
+        <p>Você pode usar aspas dentro de uma string, desde que elas não correspondam às aspas ao redor da string:</p>
+        <p>Pode utilizar aspas dentro de uma cadeia, desde que não coincidam com as aspas que rodeiam a cadeia:</p>
+        <p id="demo7"></p>
+
+        <h1>Números JavaScript</h1>
+        <p>Todos os números JavaScript são armazenados como números decimais (ponto flutuante).</p>
+        <p>Os números podem ser escritos com ou sem decimais:</p>
+        <h1>Números de JavaScript</h1>
+        <p>Os números podem ser escritos com ou sem decimais:</p>
+        <p id="demo8"></p>
+
+        <h1>Notação exponêncial</h1>
+        <p>Números extragrandes ou extrapequenos podem ser escritos com notação científica (exponencial):</p>
+        <p>Números muito grandes ou muito pequenos podem ser escritos com notação científica (exponencial):</p>
+        <p id="demo9"></p>
+
+        <div id="nota">
+            <h1>Observação</h1>
+            <p>A maioria das linguagens de programação possui muitos tipos de números:</p>
+            <p>Números inteiros (inteiros): byte (8 bits), curto (16 bits), int (32 bits), longo (64 bits)</p>
+            <p>Números reais (ponto flutuante): float (32 bits), double (64 bits).</p>
+            <p>Os números Javascript são sempre de um tipo: double (ponto flutuante de 64 bits).</p>
+        </div>
+
+        <h1>JavaScript BigInt</h1>
+        <p>Todos os números JavaScript são armazenados em formato de ponto flutuante de 64 bits.</p>
+        <p>JavaScript BigInt é um novo tipo de dados ( ES2020 ) que pode ser usado para armazenar valores inteiros grandes demais para serem representados por um número JavaScript normal.</p>
+        <p>Um BigInt não pode ter casas decimais.</p>
+        <p id="demo10"></p>
+        <p>Não é possível efetuar cálculos matemáticos entre um tipo BigInt e um tipo Number.</p>
+
+        <h1>Booleanos JavaScript</h1>
+        <p>Booleanos só podem ter dois valores: true ou false.</p>
+        <p>Os booleanos podem ter dois valores: verdadeiro ou falso:</p>
+        <p id="demo11"></p>
+        <p>Booleanos são frequentemente usados ​​em testes condicionais.</p>
+
+        <h1>Matrizes de JavaScript</h1>
+        <p>Matrizes JavaScript são escritas entre colchetes.</p>
+        <p>Os itens da matriz são separados por vírgulas.</p>
+        <p>O código a seguir declara (cria) um array chamado cars, contendo três itens (nomes de carros):</p>
+        <p>Os índices de matriz são baseados em zero, o que significa que o primeiro item é [0].</p>
+        <p id="demo12"></p>
+        <p>Os índices de array são baseados em zero, o que significa que o primeiro item é [0], o segundo é [1] e assim por diante.</p>
+
+        <h1>Objetos de JavaScript</h1>
+        <p>Objetos JavaScript são escritos com chaves {}.</p>
+        <p>As propriedades do objeto são escritas como pares nome:valor, separados por vírgulas.</p>
+        <p id="demo13"></p>
+        <p>O objeto (pessoa) no exemplo acima possui 4 propriedades: firstName, lastName, age e eyeColor.</p>
+
+        <h1>O tipo de Operador</h1>
+        <p>Você pode usar o operador JavaScript typeofpara encontrar o tipo de uma variável JavaScript.</p>
+        <p>O typeofoperador retorna o tipo de uma variável ou expressão:</p>
+        <h1>Operadores JavaScript</h1>
+        <h2>O operador typeof</h2>
+        <p>O operador typeof devolve o tipo de uma variável ou de uma expressão.</p>
+        <p id="demo14"></p>
+        <p>O operador typeof devolve o tipo de uma variável ou de uma expressão.</p>
+        <p id="demo15"></p>
+
+        <h1>Indefinido</h1>
+        <p>Em JavaScript, uma variável sem valor tem o valor undefined. O tipo também é undefined.</p>
+        <h1>Operadores de JavaScript</h1>
+        <h2>O operador typeof</h2>
+        <p>O valor (e o tipo de dados) de uma variável sem valor é <b>indefinido</b>.</p>
+        <p id="demo16"></p>
+        <p>Qualquer variável pode ser esvaziada, definindo o valor como undefined. O tipo também será undefined.</p>
+        <p>As variáveis podem ser esvaziadas se o valor for definido como <b>indefinido</b></p>
+        <p id="demo17"></p>
+
+        <h1>Valores vazios</h1>
+        <p>Um valor vazio não tem nada a ver com undefined.</p>
+        <p>Uma string vazia possui um valor legal e um tipo.</p>
+        <h2>JavaScript</h2>
+        <p>Uma cadeia vazia tem um valor legal e um tipo:</p>
+        <p id="demo18"></p>
+
+    </div>
+    <script src="JavaScript/JS-017.js"></script>
+</body>
+</html>
