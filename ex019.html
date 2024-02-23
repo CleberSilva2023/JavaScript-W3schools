@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos-019.css">
+    <title>JavaScript-019</title>
+</head>
+<body>
+    <div id="texto">
+        <h1>Objetos JavaScript</h1>
+        <h2>Objetos, propriedades e métodos da vida real</h2>
+        <p>Na vida real, um carro é um objeto .</p>
+        <p>Um carro tem propriedades como peso e cor, e métodos como iniciar e parar:</p>
+        <table>
+            <tr>
+                <td class="cor">Objeto</td>
+                <td class="cor">Propriedades</td>
+                <td class="cor">Métodos</td>
+            </tr>
+            <tr>
+                <td rowspan="4" class="img"><img src="Prints/ex019-print.png" alt=""></td>
+                <td>car.name = Fiat</td>
+                <td>car.start()</td>
+            </tr>
+            <tr>
+                <td>car.model = 500</td>
+                <td>car.drive()</td>
+            </tr>
+            <tr>
+                <td>car.weight = 850kg</td>
+                <td>car.brake()</td>
+            </tr>
+            <tr>
+                <td>car.color = white</td>
+                <td>car.stop()</td>
+            </tr>
+        </table>
+        <p>Todos os carros têm as mesmas propriedades , mas os valores das propriedades diferem de carro para carro.</p>
+        <p>Todos os carros possuem os mesmos métodos , mas os métodos são executados em momentos diferentes .</p>
+
+        <h1>Objetos JavaScript</h1>
+        <p>Este código atribui um valor simples (Fiat) a uma variável chamada car:</p>
+        <p id="demo"></p>
+        <p>Objetos também são variáveis. Mas os objetos podem conter muitos valores.</p>
+        <p>Este código atribui muitos valores (Fiat, 500, branco) a uma variável chamada carro:</p>
+        <p id="demo2"></p>
+        <p>Os valores são escritos como pares nome:valor (nome e valor separados por dois pontos).</p>
+        <div class="nota">
+            <p>É uma prática comum declarar objetos com a palavra-chave <b>const</b> .</p>
+        </div>
+
+        <h1>Definição de objeto</h1>
+        <p>Você define (e cria) um objeto JavaScript com um objeto literal:</p>
+        <h2>Exemplo</h2>
+        <p id="demo3"></p>
+        <p>Espaços e quebras de linha não são importantes. Uma definição de objeto pode abranger várias linhas:</p>
+        <p id="demo4"></p>
+
+        <h1>Propriedades do objeto</h1>
+        <p>Os pares nome:valores em objetos JavaScript são chamados de propriedades :</p>
+        <table id="tabela">
+            <tr class="tb2">
+                <td class="linha">Propriedade</td>
+                <td class="linha">Valor da propriedade</td>
+            </tr class="tb2">
+            <tr class="tb2">
+                <td class="linha">Primeiro nome</td>
+                <td class="linha">Jonas</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">Sobrenome</td>
+                <td class="linha">Santos</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">Idade</td>
+                <td class="linha">35</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">Cor dos olhos</td>
+                <td class="linha">Azul</td>
+            </tr>
+        </table>
+        <div class="nota">
+            <p>Um método é uma função armazenada como uma propriedade.</p>
+        </div>
+        <h2>Exemplo</h2>
+        <img src="Prints/ex019-print2.png" alt="Imagem de um código">
+        <p>No exemplo acima, thisrefere-se ao objeto person3 :</p>
+        <p>this.Nome significa a propriedade Nome de person3 .</p>
+        <p>this.Sobrenome significa a propriedade Sobrenome de person3 .</p>
+
+        <h1>O que é isso ?</h1>
+        <p>Em JavaScript, a this palavra-chave refere-se a um objeto .</p>
+        <p>Qual objeto depende de como this está sendo invocado (usado ou chamado).</p>
+        <p>A this palavra-chave refere-se a diferentes objetos dependendo de como é usada:</p>
+        <table id="tabela">
+            <tr class="tb2">
+                <td class="linha">Em um método de objeto, this refere-se ao objeto .</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">Sozinho, this refere-se ao objeto global .</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">Em uma função, this refere-se ao objeto global .</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">Em uma função, no modo estrito, this é undefined.</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">Em um evento, this refere-se ao elemento que recebeu o evento.</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">Métodos como call(), apply() e bind() podem se referir this a qualquer objeto .</td>
+            </tr>
+        </table>
+
+        <div class="nota">
+            <h1>Observação</h1>
+            <p><b>this</b> não é uma variável. É uma palavra-chave. Você não pode alterar o valor de <b>this</b>.</p>
+        </div>
+
+        <h1>A palavra-chave <b>this</b></h1>
+        <p>Numa definição de função, <b>this</b> refere-se ao “proprietário” da função.</p>
+        <p>No exemplo acima, <b>this</b> é o objeto pessoa que “possui” a <b>fullName</b> função.</p>
+        <p>Em outras palavras, <b>this.firstName</b> significa a <b>firstName</b> propriedade deste objeto .</p>
+
+        <h1>Acessando Métodos de Objeto</h1>
+        <p>Você acessa um método de objeto com a seguinte sintaxe:</p>
+        <p class="código">objectName.methodName()</p>
+        <h2>Exemplo</h2>
+        <p>Um método de objeto é uma definição de função, armazenada como um valor de propriedade.</p>
+        <p id="demo5"></p>
+        <p>Se você acessar um método sem os parênteses (), ele retornará a definição da função :</p>
+        <p>Se aceder a um método de objeto sem (), este devolverá a definição da função:</p>
+        <p id="demo6"></p>
+
+        <h1>Não declare strings, números e booleanos como objetos!</h1>
+        <p>Quando uma variável JavaScript é declarada com a palavra-chave " <b>new</b>", a variável é criada como um objeto:</p>
+        <img src="Prints/ex019-print3.png" alt="imgaem de um código">
+        <p>Evite <b>String</b>, <b>Number</b>, e <b>Boolean</b> objetos. Eles complicam seu código e diminuem a velocidade de execução.</p>
+
+    </div>
+
+    <script src="JavaScript/JS-019.js"></script>
+</body>
+</html>

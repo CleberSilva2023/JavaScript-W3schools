@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/*Configuração Global*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+div#texto {
+    width: 700px; /*Largura da DIV*/
+    height: auto; /*Altura da DIV*/
+    background-color: white;
+}
+
+/*Configuração do TEXTO*/
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+h2 {
+    text-align: center;
+    padding: 15px;
+}
+p {
+    padding: 10px;
+    line-height: 1.5;
+}
+p.código {
+    padding: 10px;
+    background-color: rgb(21, 32, 43);
+    color: white;
+}
+div.nota{
+    background-color: rgb(255, 244, 163);
+    padding: 20px;
+}
+b {
+    color: red;
+}
+
+/*Configuração da TABELA*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr, td {
+    padding: 15px;
+    text-align: left;
+}
+td.cor {
+    background-color: rgb(29, 42, 53);
+    color: white;
+    text-align: left;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/*Segunda TABELA*/
+table#tabela {
+    color: white;
+    border-collapse: collapse;
+}
+tr.tb2 , td.linha {
+    border: 1px solid black;
+}
+tr.tb2:nth-child(even) {
+    background-color: rgb(56, 68, 77);
+  }
+  
+tr.tb2:nth-child(odd) {
+    background-color: rgb(29, 42, 53);
+  }
+  
