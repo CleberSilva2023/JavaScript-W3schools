@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* Configuração GLOBAL */
+* {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: white;
+}
+div#texto {
+    background-color: rgb(29, 42, 53); /*Cor da DIV*/
+    color: white; /*Cor do texto*/
+    width: 700px; /*Largura da DIV*/
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7); /*Efeito sombra da DIV*/
+    border-radius: 20px; /*Bordas da DIV arredondadas*/
+}
+
+/* Configuração do TEXTO */
+h1, h2, h3 {
+    text-align: center;
+    padding: 15px;
+}
+p {
+    padding: 10px 20px 10px 20px;
+    line-height: 1.5;
+    font-size: 15pt;
+}
+ul {
+    padding: 0px 20px 0px 50px;
+}
+li {
+    padding: 5px;
+    font-size: 15pt;
+}
+
+/* Estilo do código visivel para usúario*/
+pre.hljs {
+    background-color: #f6f8fa;
+    color: #333;
+    padding: 16px;
+    border-radius: 4px;
+    overflow: auto;
+    white-space: pre-wrap;
+    font-family: monospace;
+  }
+  
+  .hljs {
+    background-color: #f6f8fa;
+    color: #333;
+  }
+  
+  .hljs-keyword {
+    color: #8959a8;
+  }
+  
+  .hljs-string {
+    color: #a31515;
+  }
+  
+  .hljs-comment {
+    color: #697889;
+  }
