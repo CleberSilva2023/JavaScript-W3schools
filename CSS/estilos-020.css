@@ -39,29 +39,4 @@ li {
 }
 
 /* Estilo do código visivel para usúario*/
-pre.hljs {
-    background-color: #f6f8fa;
-    color: #333;
-    padding: 16px;
-    border-radius: 4px;
-    overflow: auto;
-    white-space: pre-wrap;
-    font-family: monospace;
-  }
-  
-  .hljs {
-    background-color: #f6f8fa;
-    color: #333;
-  }
-  
-  .hljs-keyword {
-    color: #8959a8;
-  }
-  
-  .hljs-string {
-    color: #a31515;
-  }
-  
-  .hljs-comment {
-    color: #697889;
-  }
+@import url("//prism.css");

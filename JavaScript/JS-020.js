@@ -1,4 +1,6 @@
-// Inicialize a biblioteca highlight.js
-hljs.highlightAll();
+import { funcao } from '../prism';
+funcao();
 
-src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/11.5.1/highlight.min.js"
+
+
+//A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
