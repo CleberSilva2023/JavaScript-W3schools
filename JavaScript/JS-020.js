@@ -1,4 +1,4 @@
-import { funcao } from '../prism';
+import { funcao } from './prism';
 funcao();
 
 
