@@ -37,6 +37,44 @@ li {
     padding: 5px;
     font-size: 15pt;
 }
+span {
+    color: red;
+}
 
-/* Estilo do código visivel para usúario*/
-@import url("prism.css");
+/*Estilo das linhas de código para usuário*/
+pre {
+    width: 100%;
+}
+code {
+    background-color: black;
+    text-align: left;
+    width: 680px;
+    display: block;
+    color: white;
+    padding: 10px 0px 10px 20px;
+}
+span.cor1 {
+    color: rgb(0, 255, 0);
+}
+span.cor2 {
+    color: rgb(255, 0, 255);
+}
+span.cor3 {
+    color: rgb(255, 55, 0);
+}
+
+/*Configuração do Botão*/
+button {
+    position: relative;
+    padding: 10px;
+    left: 300px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+button:hover {
+    transition: 1s;
+    background-color: red;
+    cursor: pointer;
+}

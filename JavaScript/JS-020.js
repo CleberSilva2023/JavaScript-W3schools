@@ -1,5 +1,4 @@
-import { funcao } from './prism';
-funcao();
+
 
 
 

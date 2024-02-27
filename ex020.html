@@ -24,8 +24,22 @@
         <p>JavaScript permite executar código quando eventos são detectados.</p>
         <p>O HTML permite que atributos do manipulador de eventos, com código JavaScript , sejam adicionados aos elementos HTML.</p>
         <p>Com aspas simples:</p>
-        <p>continua...</p>
+        <pre>
+            <code><span class="cor1">&lt;</span><span class="cor3">element</span> <span class="cor2">event</span><span class="cor1">='some JavaScript'&gt;</span></code>
+        </pre>
+        <p>Com aspas duplas:</p>
+        <pre>
+            <code><span class="cor1">&lt;</span><span class="cor3">element</span> <span class="cor2">event</span><span class="cor1">="some JavaScript"&gt;</span></code>
+        </pre>
+        <p>No exemplo a seguir, um <span>onclick</span> atributo (com código) é adicionado a um <span>&lt;button&gt;</span>elemento:</p>
+        <h1>Exemplo</h1>
+        <h2>Eventos HTML em JavaScript</h2>
+        <h3>O atributo onclick</h3>
+        <button onclick="document.getElementById('demo').innerHTML=Date()">A hora é?</button>
+        <p id="demo"></p>
+
     </div>
+
     <script src="JavaScript/JS-020.js"></script>
 
 </body>
