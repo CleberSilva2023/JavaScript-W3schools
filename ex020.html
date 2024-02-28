@@ -31,13 +31,81 @@
         <pre>
             <code><span class="cor1">&lt;</span><span class="cor3">element</span> <span class="cor2">event</span><span class="cor1">="some JavaScript"&gt;</span></code>
         </pre>
-        <p>No exemplo a seguir, um <span>onclick</span> atributo (com código) é adicionado a um <span>&lt;button&gt;</span>elemento:</p>
+        <p>No exemplo a seguir, um <span>onclick</span> atributo (com código) é adicionado a um <span>&lt;button&gt;</span> elemento:</p>
         <h1>Exemplo</h1>
         <h2>Eventos HTML em JavaScript</h2>
         <h3>O atributo onclick</h3>
         <button onclick="document.getElementById('demo').innerHTML=Date()">A hora é?</button>
         <p id="demo"></p>
+        <p>No exemplo acima, o código JavaScript altera o conteúdo do elemento com id="demo".</p>
+        <p>No próximo exemplo, o código altera o conteúdo do seu próprio elemento (usando <span>this.innerHTML</span>):</p>
+        <h1>Exemplo</h1>
+        <h2>Eventos HTML em JavaScript</h2>
+        <h3>O atributo onclick</h3>
+        <button onclick="this.innerHTML=Date()">A hora é?</button>
+        <div class="nota">
+            <p class="nota">O código JavaScript geralmente tem várias linhas. É mais comum ver atributos de eventos chamando funções:</p>
+        </div>
+        <h1>Exemplo</h1>
+        <h2>Eventos HTML em JavaScript</h2>
+        <h3>O atributo onclick</h3>
+        <p>Clique no botão para visualizar a data.</p>
+        <button onclick="displayDate()">Que horas é?</button>
+        <p id="demo2"></p>
 
+        <h1>Eventos HTML comuns</h1>
+        <p>Aqui está uma lista de alguns eventos HTML comuns:</p>
+        <table id="tabela">
+            <tr class="tb2">
+                <td class="linha">Evento</td>
+                <td class="linha">Descrição</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">em mudança</td>
+                <td class="linha">Um elemento HTML foi alterado</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">ao clicar</td>
+                <td class="linha">O usuário clica em um elemento HTML</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">passar o mouse</td>
+                <td class="linha">O usuário move o mouse sobre um elemento HTML</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">onmouseout</td>
+                <td class="linha">O usuário afasta o mouse de um elemento HTML</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">onkeydown</td>
+                <td class="linha">O usuário pressiona uma tecla do teclado</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">carregando</td>
+                <td class="linha">O navegador terminou de carregar a página
+                </td>
+            </tr>
+        </table>
+
+        <h1>Manipuladores de eventos JavaScript</h1>
+        <p>Os manipuladores de eventos podem ser usados ​​para manipular e verificar a entrada do usuário, as ações do usuário e as ações do navegador:</p>
+        <ul>
+            <li>Coisas que devem ser feitas sempre que uma página carrega
+            </li>
+            <li>Coisas que devem ser feitas quando a página é fechada</li>
+            <li>Ação que deve ser executada quando um usuário clica em um botão</li>
+            <li>Conteúdo que deve ser verificado quando um usuário insere dados</li>
+            <li>E mais ...</li>
+        </ul>
+        <p>Muitos métodos diferentes podem ser usados ​​para permitir que o JavaScript funcione com eventos:</p>
+        <ul>
+            <li>Atributos de evento HTML podem executar código JavaScript diretamente</li>
+            <li>Atributos de eventos HTML podem chamar funções JavaScript</li>
+            <li>Você pode atribuir suas próprias funções de manipulador de eventos a elementos HTML</li>
+            <li>Você pode impedir que eventos sejam enviados ou manipulados</li>
+            <li>E mais ...</li>
+        </ul>
+    
     </div>
 
     <script src="JavaScript/JS-020.js"></script>

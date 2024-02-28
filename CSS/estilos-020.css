@@ -38,7 +38,7 @@ li {
     font-size: 15pt;
 }
 span {
-    color: red;
+    color: rgb(255, 72, 72);
 }
 
 /*Estilo das linhas de código para usuário*/
@@ -78,3 +78,37 @@ button:hover {
     background-color: red;
     cursor: pointer;
 }
+
+/*Configurações de NOTA*/
+div.nota {
+    margin: 20px 0px 20px 0px;
+    background-color: rgb(255, 244, 163);
+}
+p.nota {
+    color: black;
+}
+
+/*Configurações da TABELA*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr, td {
+    padding: 15px;
+    text-align: left;
+}
+table#tabela {
+    color: white;
+    border-collapse: collapse;
+}
+tr.tb2 , td.linha {
+    border: 1px solid white;
+}
+tr.tb2:nth-child(even) {
+    background-color: rgb(56, 68, 77);
+  }
+  
+tr.tb2:nth-child(odd) {
+    background-color: rgb(29, 42, 53);
+  }
+  
