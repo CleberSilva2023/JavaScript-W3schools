@@ -84,6 +84,9 @@ div.nota {
     margin: 20px 0px 20px 0px;
     background-color: rgb(255, 244, 163);
 }
+h1.nota {
+    color: black;
+}
 p.nota {
     color: black;
 }

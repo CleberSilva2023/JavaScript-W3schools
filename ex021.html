@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos-020.css">
+    <title>JavaScript-021</title>
+</head>
+<body>
+    <div id="texto">
+        <h1>Usando citações</h1>
+        <p>Uma string JavaScript contém zero ou mais caracteres escritos entre aspas.</p>
+        <h1>Exemplo</h1>
+        <h1>Cadeias de caracteres JavaScript</h1>
+        <p id="demo"></p>
+        <p>Você pode usar aspas simples ou duplas:</p>
+        <h1>Exemplo</h1>
+        <p>As cadeias de caracteres são escritas entre aspas. Podem ser usadas aspas simples ou duplas:</p>
+        <p id="demo2"></p>
+        <div class="nota">
+            <h1 class="nota">Observação</h1>
+            <p class="nota">Strings criadas com aspas simples ou duplas funcionam da mesma forma. Não há diferença entre os dois.</p>
+        </div>
+
+        <h1>Citações dentro de citações</h1>
+        <p>Você pode usar aspas dentro de uma string, desde que elas não correspondam às aspas ao redor da string:</p>
+        <h1>Exemplo</h1>
+        <h1>Cadeias de caracteres JavaScript</h1>
+        <p>Pode utilizar aspas dentro de uma cadeia de caracteres, desde que não coincidam com as aspas que envolvem a cadeia.</p>
+        <p id="demo3"></p>
+
+        <h1>Sequências de modelo</h1>
+        <p>Os modelos foram introduzidos com ES6 (JavaScript 2016).</p>
+        <p>Os modelos são strings entre crases (`Esta é uma string de modelo`).</p>
+        <p>Os modelos permitem aspas simples e duplas dentro de uma string:</p>
+        <h1>Exemplo</h1>
+        <h1>Cadeias de caracteres de modelo JavaScript</h1>
+        <p>Com os back-ticks, é possível usar aspas simples e duplas dentro de uma string:</p>
+        <p id="demo4"></p>
+        <p>Os modelos não são suportados pelo Internet Explorer.</p>
+        <div class="nota">
+            <h1 class="nota">Observação</h1>
+            <p class="nota">Os modelos não são suportados no Internet Explorer.</p>
+        </div>
+
+        <h1>Comprimento da corda</h1>
+        <p>Para encontrar o comprimento de uma string, use a propriedade integrada <span>length</span>:</p>
+        <h1>Exemplo</h1>
+        <h1>Cadeias de caracteres em JavaScript</h1>
+        <h2>A propriedade length</h2>
+        <p>O comprimento da string é:</p>
+        <p id="demo5"></p>
+
+        <h1>Personagens de fuga</h1>
+        <p>Como as strings devem ser escritas entre aspas, o JavaScript interpretará mal esta string:</p>
+        <pre>
+            <code><span class="cor2">let</span> text = <span class="cor1">"Nós somos os chamados "</span>Vikings<span class="cor1">" do norte."</span>;</code>
+        </pre>
+        <p>A string será cortada para "Nós somos os chamados".</p>
+        <p>Para resolver esse problema, você pode usar um caractere de escape de barra invertida .</p>
+        <p>O caractere de escape de barra invertida ( <span>\</span>) transforma caracteres especiais em caracteres de string:</p>
+        <table id="tabela">
+            <tr class="tb2">
+                <td class="linha">Código</td>
+                <td class="linha">Resultado</td>
+                <td class="linha">Descrição</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">\'</td>
+                <td class="linha">'</td>
+                <td class="linha">Citação única</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">\"</td>
+                <td class="linha">"</td>
+                <td class="linha">Aspas duplas</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">\\</td>
+                <td class="linha">\</td>
+                <td class="linha">Barra invertida</td>
+            </tr>
+        </table>
+        <h1>Exemplo</h1>
+        <p>\" insere aspas duplas numa cadeia de caracteres:</p>
+        <h1>Cadeias de caracteres JavaScript</h1>
+        <p>A seqüência de escape \" insere uma aspa dupla em uma string.</p>
+        <p id="demo6"></p>
+        <p>\' insere aspas simples em uma string:</p>
+        <h1>Cadeias de caracteres JavaScript</h1>
+        <p>A seqüência de escape \' insere uma aspa simples em uma string.</p>
+        <p id="demo7"></p>
+        <p>\\ insere uma barra invertida em uma string:</p>
+        <h1>Cadeias de caracteres JavaScript</h1>
+        <p>A sequência de escape \\ insere uma barra invertida numa cadeia de caracteres.</p>
+        <p id="demo8"></p>
+        <p>Seis outras sequências de escape são válidas em JavaScript:</p>
+        <table id="tabela">
+            <tr class="tb2">
+                <td class="linha">Código</td>
+                <td class="linha">Resultado</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">\b</td>
+                <td class="linha">Retrocesso</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">\f</td>
+                <td class="linha">Alimentação do formulário</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">\n</td>
+                <td class="linha">Nova linha</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">\r</td>
+                <td class="linha">Retorno do carro</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">\t</td>
+                <td class="linha">Tabulador horizontal</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">\v</td>
+                <td class="linha">Tabulador vertical</td>
+            </tr>
+        </table>
+        <div class="nota">
+            <h1 class="nota">Observação</h1>
+            <p class="nota">Os 6 caracteres de escape acima foram originalmente projetados para controlar máquinas de escrever, teletipos e aparelhos de fax. Eles não fazem nenhum sentido em HTML.</p>
+        </div>
+
+    </div>
+
+    <script src="JavaScript/JS-021.js"></script>
+</body>
+</html>
