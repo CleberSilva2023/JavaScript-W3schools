@@ -130,6 +130,73 @@
             <p class="nota">Os 6 caracteres de escape acima foram originalmente projetados para controlar máquinas de escrever, teletipos e aparelhos de fax. Eles não fazem nenhum sentido em HTML.</p>
         </div>
 
+        <h1>Quebrando longas filas</h1>
+        <p>Para facilitar a leitura, os programadores geralmente gostam de evitar longas linhas de código.</p>
+        <p>Uma maneira segura de dividir uma instrução é após um operador:</p>
+        <h1>Exemplo</h1>
+        <h2>Declarações JavaScript</h2>
+        <p> O melhor lugar para quebrar uma linha de código é após um operador ou uma vírgula. </p>
+        <p id="demo9"></p>
+        <p>Uma maneira segura de quebrar uma string é usando a adição de strings:</p>
+        <h1>Cadeias de caracteres JavaScript</h1>
+        <p>A maneira mais segura de quebrar uma linha de código em uma string é usando adição de string.</p>
+        <p id="demo10"></p>
+
+        <h1>Sequências de modelo</h1>
+        <p>Os modelos foram introduzidos com ES6 (JavaScript 2016).</p>
+        <p>Os modelos são strings entre crases (`Esta é uma string de modelo`).</p>
+        <p>Os modelos permitem strings multilinhas:</p>
+        <h1>Exemplo</h1>
+        <h1>Cadeias de caracteres de modelos JavaScript</h1>
+        <p>Os templates permitem strings de várias linhas:</p>
+        <p id="demo11"></p>
+        <p>Os modelos não são suportados no Internet Explorer.</p>
+        <div class="nota">
+            <h1 class="nota">Observação</h1>
+            <p class="nota">Os modelos não são suportados no Internet Explorer.</p>
+        </div>
+
+        <h1>Strings JavaScript como objetos</h1>
+        <p>Normalmente, strings JavaScript são valores primitivos, criados a partir de literais:</p>
+        <pre>
+            <code><span class="cor2">let</span> x = <span class="cor1">"John"</span>;</code>
+        </pre>
+        <p>Mas strings também podem ser definidas como objetos com a palavra-chave new:</p>
+        <pre>
+            <code><span class="cor2">let</span> y = <span class="cor2">new</span> String(<span class="cor1">"John"</span>);</code>
+        </pre>
+        <h1>Exemplo</h1>
+        <h1>Cadeias de caracteres JavaScript</h1>
+        <p id="demo12"></p>
+        <div class="nota">
+            <h1 class="nota">Observação</h1>
+            <p class="nota">Não crie objetos Strings.</p>
+            <p class="nota">A <span>new</span> palavra-chave complica o código e diminui a velocidade de execução.</p>
+            <p class="nota">Objetos string podem produzir resultados inesperados:</p>
+        </div>
+        <p>Ao usar o <span>==</span> operador, x e y são iguais :</p>
+        <h2>Nunca crie strings como objetos</h2>
+        <p>As cadeias de caracteres e os objectos não podem ser comparados com segurança.</p>
+        <p id="demo13"></p>
+        <p>Ao usar o <span>===</span> operador, x e y não são iguais :</p>
+        <h2>Nunca crie strings como objetos</h2>
+        <p>As cadeias de caracteres e os objectos não podem ser comparados com segurança.</p>
+        <p id="demo14"></p>
+        <div class="nota">
+            <p class="nota">Observe a diferença entre <span>(a==b)</span> e <span>(c===d)</span>.</p>
+        </div>
+        <p><span>(a == b)</span> verdadeiro ou falso?</p>
+        <h2>Nunca crie strings como objetos</h2>
+        <p>Os objectos JavaScript não podem ser comparados.</p>
+        <p id="demo15"></p>
+        <p><span>(c === d)</span> verdadeiro ou falso?</p>
+        <h2>Nunca crie strings como objetos</h2>
+        <p>Os objectos JavaScript não podem ser comparados.</p>
+        <p id="demo16"></p>
+        <div class="nota">
+            <p class="nota">Comparar dois objetos JavaScript sempre retorna false .</p>
+        </div>
+
     </div>
 
     <script src="JavaScript/JS-021.js"></script>
