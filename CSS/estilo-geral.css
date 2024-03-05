@@ -114,4 +114,27 @@ tr.tb2:nth-child(even) {
 tr.tb2:nth-child(odd) {
     background-color: rgb(29, 42, 53);
   }
-  
+
+  /*Configuração do Sumário*/
+  div#sumário {
+    position: relative;
+    width: 100%;
+    background-color: rgb(25, 61, 61);
+    color: white;
+  }
+  a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  a:hover {
+    transition: 0.5s;
+    color: red;
+    text-decoration: underline;
+  }
+  ul#lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
