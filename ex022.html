@@ -14,14 +14,44 @@
             <h1>Métodos básicos de string</h1>
             <p>Strings Javascript são primitivas e imutáveis: todos os métodos de string produzem uma nova string sem alterar a string original.</p>
             <ul id="lista">
-                <a href="#t01" target="_self">
-                    <li>Comprimento da string</li>
+                <a href="#t01">
+                    <li class="item">Comprimento da string</li>
                 </a>
-                <a href="">
-                    <li>String charAt()</li>
+                <a href="#t02">
+                    <li class="item">String charAt()</li>
                 </a>
-                <a href="">
-                    <li>String charCodeAt()</li>
+                <a href="#t03">
+                    <li class="item">String charCodeAt()</li>
+                </a>
+                <a href="#t04">
+                    <li class="item">String at()</li>
+                </a>
+                <a href="#t05">
+                    <li class="item">String [ ]</li>
+                </a>
+                <a href="#">
+                    <li class="item">lista01</li>
+                </a>
+                <a href="#">
+                    <li class="item">lista01</li>
+                </a>
+                <a href="#">
+                    <li class="item">lista01</li>
+                </a>
+                <a href="#">
+                    <li class="item">lista01</li>
+                </a>
+                <a href="#">
+                    <li class="item">lista01</li>
+                </a>
+                <a href="#">
+                    <li class="item">lista01</li>
+                </a>
+                <a href="#">
+                    <li class="item">lista01</li>
+                </a>
+                <a href="#">
+                    <li class="item">lista01</li>
                 </a>
             </ul>
         </div>
@@ -33,6 +63,60 @@
         <h2>A propriedade length</h2>
         <p>O comprimento da string é:</p>
         <p id="demo"></p>
+        <h1>Extraindo caracteres de string</h1>
+        <p>Existem 4 métodos para extrair caracteres de string:</p>
+        <ul>
+            <li>O método <span>at(position)</span></li>
+            <li>O método <span>charAt(position)</span></li>
+            <li>O método <span>charCodeAt(position)</span></li>
+            <li>Usando acesso à propriedade [] como em arrays</li>
+        </ul>
+
+        <hr>
+
+        <h1 id="t02">String JavaScript charAt()</h1>
+        <p>O charAt() método retorna o caractere em um índice (posição) especificado em uma string:</p>
+        <h1>Exemplo</h1>
+        <h1>Cadeia de caracteres em JavaScript</h1>
+        <h2>O Método charAt()</h2>
+        <p>O método charAt() retorna o caractere em uma determinada posição em uma string:</p>
+        <p id="demo2"></p>
+
+        <hr>
+
+        <h1 id="t03">String JavaScript charCodeAt()</h1>
+        <p>O <span>charCodeAt()</span> método retorna o código do caractere em um índice especificado em uma string:</p>
+        <p>O método retorna um código UTF-16 (um número inteiro entre 0 e 65535).</p>
+        <h1>Cadeia de caracteres em JavaScript</h1>
+        <h2>O Método charCodeAt()</h2>
+        <p>O método charCodeAt() retorna o unicode do caractere em uma determinada posição em uma string:</p>
+        <p id="demo3"></p>
+
+        <hr>
+
+        <h1 id="t04">String JavaScript em()</h1>
+        <h1>Exemplos</h1>
+        <p>Obtenha a terceira letra do nome:</p>
+        <h1>Cadeias de caracteres em JavaScript</h1>
+        <h2>O Método at()</h2>
+        <p>O método at() retorna um elemento indexado de uma string:</p>
+        <p id="demo4"></p>
+        <p>Obtenha a terceira letra do nome:</p>
+        <h2>Notação bracket</h2>
+        <p>A notação bracked [] retorna um elemento indexado de uma string:</p>
+        <p id="demo5"></p>
+        <p>O <span>at()</span> método retorna o caractere em um índice (posição) especificado em uma string.</p>
+        <p>O <span>at()</span> método é compatível com todos os navegadores modernos desde março de 2022:</p>
+        <div class="nota">
+            <h1 class="nota">Observação</h1>
+            <p class="nota">O <span>at()</span> método é uma nova adição ao JavaScript.</p>
+            <p class="nota">Permite o uso de índices negativos, mas <span>charAt()</span> não.</p>
+            <p class="nota">Agora você pode usar <span>myString.at(-2)</span> em vez de <span>charAt(myString.length-2)</span>.</p>
+        </div>
+
+        <hr>
+
+        <h1 id="t05">Acesso à propriedade [ ]</h1>
 
     </div>
     <script src="JavaScript/JS-022.js"></script>

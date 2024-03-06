@@ -40,6 +40,10 @@ li {
 span {
     color: rgb(255, 72, 72);
 }
+hr {
+    margin: 30px 0px 30px 0px;
+    border: solid 2px red;
+}
 
 /*Estilo das linhas de código para usuário*/
 pre {
@@ -133,8 +137,10 @@ tr.tb2:nth-child(odd) {
     color: red;
     text-decoration: underline;
   }
-  ul#lista {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+ul#lista {
+    margin: 0px;
   }
+  li.item {
+    margin: 0px;
+  }
+  
