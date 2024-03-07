@@ -124,24 +124,15 @@ table#navegador{
     position: relative;
     width: 680px;
     left: 10px;
-    }
-th {
-    border: 1px solid white;
 }
-th.Chrome {
-    background-color: aqua;
-    background-image: url("//Prints/Chrome.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+th.chrome {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
 }
 tr.nv, td.li {
     border: 1px solid white;
     padding: 25px 10px 25px 10px;
-}
-img.logo {
-    text-align: center;
 }
 
   /*Configuração do Sumário*/
