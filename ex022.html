@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/estilo-geral.css">
+    <link rel="stylesheet" href="teste.css">
     <title>JavaScript-022</title>
 </head>
 <body>
@@ -118,13 +119,6 @@
         <p>JavaScript 2022 (ES2022) é compatível com todos os navegadores modernos desde março de 2023:</p>
         <table id="navegador">
             <tr class="nv">
-                <th class="chrome"></th>
-                <th>edge</th>
-                <th>Firefox</th>
-                <th>safari</th>
-                <th>opera</th>
-            </tr>
-            <tr class="nv">
                 <td class="li">Chrome 94</td>
                 <td class="li">Edge 94</td>
                 <td class="li">Firefox 93</td>
@@ -132,11 +126,11 @@
                 <td class="li">Opera 79</td>
             </tr>
             <tr class="nv">
-                <td class="li">Sep 2021</td>
-                <td class="li">Sep 2021</td>
-                <td class="li">Oct 2021</td>
-                <td class="li">Mar 2023</td>
-                <td class="li">Oct 2021</td>
+                <td class="li">Setembro 2021</td>
+                <td class="li">Setembro 2021</td>
+                <td class="li">Outubro 2021</td>
+                <td class="li">Março 2023</td>
+                <td class="li">Outubro 2021</td>
             </tr>
         </table>
 
@@ -148,12 +142,24 @@
         <p>Acesso a propriedades em strings:</p>
         <p>O primeiro caractere da string é:</p>
         <p id="demo6"></p>
+        <div class="nota">
+            <h1 class="nota">Observação</h1>
+            <p class="nota">O acesso à propriedade pode ser um pouco imprevisível:</p>
+            <ul class="nota">
+                <li class="nota">Faz com que as strings pareçam arrays (mas não são)</li>
+                <li class="nota">Se nenhum caractere for encontrado, [] retornará indefinido, enquanto charAt() retornará uma string vazia.</li>
+                <li class="nota">É somente leitura. str[0] = "A" não dá erro (mas não funciona!)
+                </li>
+            </ul>
+        </div>
+
+        <h1>Exemplo</h1>
+        <h1>Cordas de caracteres em JavaScript</h1>
+        <p>Os aces de propriedades em strings são apenas de leitura:</p>
+        <p id="demo7"></p>
 
     </div>
 
     <script src="JavaScript/JS-022.js"></script>
-    <style>
-
-    </style>
 </body>
 </html>

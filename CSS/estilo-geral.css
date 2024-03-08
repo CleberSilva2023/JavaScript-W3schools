@@ -5,6 +5,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -12,6 +13,7 @@ body {
     height: auto;
     background-color: white;
 }
+
 div#texto {
     background-color: rgb(29, 42, 53); /*Cor da DIV*/
     color: white; /*Cor do texto*/
@@ -94,8 +96,16 @@ h1.nota {
 p.nota {
     color: black;
 }
+ul.nota {
+    margin: 20px;
+}
+li.nota {
+    padding: 10px;
+    color: black;
+}
 
 /*Configurações da TABELA*/
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -120,15 +130,11 @@ tr.tb2:nth-child(odd) {
   }
 
   /*TABELA-DOS-NAVEGADORES*/
+
 table#navegador{
     position: relative;
     width: 680px;
     left: 10px;
-}
-th.chrome {
-    background-color: aquamarine;
-    width: 100px;
-    height: 100px;
 }
 tr.nv, td.li {
     border: 1px solid white;

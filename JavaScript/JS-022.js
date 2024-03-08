@@ -24,4 +24,9 @@ document.getElementById("demo5").innerHTML = letter;
 let text4 = "Olá mundo!"
 document.getElementById("demo6").innerHTML = text[0];
 
+//DEMO-7
+let text5 = "Olá mundo! Demonstração 7°"
+text5[0] = "A";  //Não funciona
+document.getElementById("demo7").innerHTML = text5; 
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
