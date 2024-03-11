@@ -30,11 +30,11 @@
                 <a href="#t05">
                     <li class="item">String [ ]</li>
                 </a>
-                <a href="#">
-                    <li class="item">lista01</li>
+                <a href="#t06">
+                    <li class="item">String slice()</li>
                 </a>
-                <a href="#">
-                    <li class="item">lista01</li>
+                <a href="#t07">
+                    <li class="item">String substring()</li>
                 </a>
                 <a href="#">
                     <li class="item">lista01</li>
@@ -157,6 +157,53 @@
         <h1>Cordas de caracteres em JavaScript</h1>
         <p>Os aces de propriedades em strings são apenas de leitura:</p>
         <p id="demo7"></p>
+
+        <hr>
+
+        <h1 id="t06">Extraindo partes de string</h1>
+        <p>Existem 3 métodos para extrair uma parte de uma string:</p>
+        <ul>
+            <li><span>slice(start, end)</span></li>
+            <li><span>substring(start, end)</span></li>
+            <li><span>substr(start, length)</span></li>
+        </ul>
+
+        <h1>Fatia de string JavaScript()</h1>
+        <p><span>slice()</span> extrai uma parte de uma string e retorna a parte extraída em uma nova string.</p>
+        <p>O método usa 2 parâmetros: posição inicial e posição final (fim não incluído)</p>
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+            <h1>Cadeias de caracteres em JavaScript</h1>
+            <h2>O método slice()</h2>
+            <p>A parte fatiada (extraída) da string é:</p>
+            <p id="demo8"></p>
+        </div>
+
+        <div class="nota">
+            <h1 class="nota">Observação</h1>
+            <p class="nota">JavaScript conta posições a partir de zero.</p>
+            <p class="nota">A primeira posição é 0.</p>
+            <p class="nota">A segunda posição é 1.</p>
+        </div>
+
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+            <p>Se você omitir o segundo parâmetro, o método cortará o restante da string:</p>
+            <h1>Cadeias de caracteres em JavaScript</h1>
+            <h2>O Método slice()</h2>
+            <p>Extraia uma parte de uma string da posição 6:</p>
+            <p id="demo9"></p>
+            <p>Se um parâmetro for negativo, a posição é contada a partir do final da string:</p>
+            <p>Extrai uma parte de uma string contando a partir do final:</p>
+            <p id="demo10"></p>
+            <p>Este exemplo corta uma parte de uma string da posição -12 à posição -6:</p>
+            <p>Extrai uma parte de uma cadeia de caracteres e devolve as partes extraídas numa nova cadeia de caracteres:</p>
+            <p id="demo11"></p>
+        </div>
+
+        <hr>
+
+        <h1 id="t07">Substring de string JavaScript()</h1>
 
     </div>
 
