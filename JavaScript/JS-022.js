@@ -49,4 +49,20 @@ let text9 = "Maçã, Banana, Kiwi";
 let part4 = text9.slice(-12,-6)
 document.getElementById("demo11").innerHTML = part4;
 
+//DEMO-12
+let str = "Maçã, Banana, Kiwi";
+document.getElementById("demo12").innerHTML = str.substring(6,13);
+
+//DEMO-13
+let str2 = "Maçã, Banana, Kiwi";
+document.getElementById("demo13").innerHTML = str2.substr(6,6);
+
+//DEMO-14
+let str3 = "Maçã, Banana, Kiwi";
+document.getElementById("demo14").innerHTML = str3.substr(6);
+
+//DEMO-15
+let str4 = "Maçã, Banana, Kiwi";
+document.getElementById("demo15").innerHTML = str.substr(-4);
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
