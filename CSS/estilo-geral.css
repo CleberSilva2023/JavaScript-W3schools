@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* Configuração GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
 * {
     font-family: sans-serif;
     padding: 0px;
@@ -21,6 +23,14 @@ div#texto {
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7); /*Efeito sombra da DIV*/
     border-radius: 20px; /*Bordas da DIV arredondadas*/
 }
+
+/*FONTE-IMPORTADO*/
+@font-face {
+    font-family: 'Fira Code';
+    src: url("//Fontes/static/FiraCode-Light.ttf") format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /* não deu certo a importação, descubrir o que deu errado!*/
 
 /* Configuração do TEXTO */
 h1, h2, h3 {
@@ -58,6 +68,7 @@ pre {
     width: 100%;
 }
 code {
+    font-family: "Fira Code", monospace;
     background-color: black;
     text-align: left;
     width: 680px;
@@ -66,7 +77,7 @@ code {
     padding: 10px 0px 10px 20px;
 }
 span.cor1 {
-    color: rgb(0, 255, 0);
+    color: rgba(0, 255, 0, 0.7);
 }
 span.cor2 {
     color: rgb(255, 0, 255);

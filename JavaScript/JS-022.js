@@ -65,4 +65,22 @@ document.getElementById("demo14").innerHTML = str3.substr(6);
 let str4 = "Maçã, Banana, Kiwi";
 document.getElementById("demo15").innerHTML = str.substr(-4);
 
+//DEMO-16
+function myFunction() {
+    let text10 = document.getElementById("demo16").innerHTML;
+    document.getElementById("demo16").innerHTML = text10.toUpperCase();
+}
+
+//DEMO-17
+document.getElementById("but02").addEventListener("click",function myFunction() {
+    let text11 = document.getElementById("demo17").innerHTML;
+    document.getElementById("demo17").innerHTML = text11.toLowerCase();
+});
+
+//DEMO-18
+let text12 = "Olá";
+let text13 = "mundo!";
+let text14 = text12.concat(" ", text13);
+document.getElementById("demo18").innerHTML = text14;
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
