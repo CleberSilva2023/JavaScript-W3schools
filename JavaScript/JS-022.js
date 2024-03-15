@@ -83,4 +83,15 @@ let text13 = "mundo!";
 let text14 = text12.concat(" ", text13);
 document.getElementById("demo18").innerHTML = text14;
 
+//DEMO-19
+let text15 = "      Olá mundo!      ";
+let text16 = text15.trim();
+document.getElementById("demo19").innerHTML = "Length text15 = " + text15.length + "<br>Length text16 = " + text16.length;
+
+//DEMO-20
+let text17 = "     Olá mundo!     ";
+let text18 = text17.trimStart();
+
+document.getElementById("demo20").innerHTML = "Length text17 = " + text17.length + "<br>Length text18 = " + text18.length;
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

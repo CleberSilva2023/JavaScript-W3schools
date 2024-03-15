@@ -24,13 +24,6 @@ div#texto {
     border-radius: 20px; /*Bordas da DIV arredondadas*/
 }
 
-/*FONTE-IMPORTADO*/
-@font-face {
-    font-family: 'Fira Code';
-    src: url("//Fontes/static/FiraCode-Light.ttf") format('woff');
-    font-weight: normal;
-    font-style: normal;
-} /* não deu certo a importação, descubrir o que deu errado!*/
 
 /* Configuração do TEXTO */
 h1, h2, h3 {
@@ -147,7 +140,6 @@ tr.tb2:nth-child(odd) {
   }
 
   /*TABELA-DOS-NAVEGADORES*/
-
 table#navegador{
     position: relative;
     width: 680px;
@@ -156,6 +148,15 @@ table#navegador{
 tr.nv, td.li {
     border: 1px solid white;
     padding: 25px 10px 25px 10px;
+}
+td.icon {
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid white;
+}
+img.icon {
+    position: relative;
+    left: 30px;
 }
 
   /*Configuração do Sumário*/
