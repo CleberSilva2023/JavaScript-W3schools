@@ -1,28 +1,20 @@
 @charset "UTF-8";
 /* Configuração GLOBAL */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
-
 * {
     font-family: sans-serif;
     padding: 0px;
     margin: 0px;
 }
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    background-color: white;
-}
-
 div#texto {
     background-color: rgb(29, 42, 53); /*Cor da DIV*/
     color: white; /*Cor do texto*/
-    width: 700px; /*Largura da DIV*/
+    width: auto; /*Largura da DIV*/
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7); /*Efeito sombra da DIV*/
     border-radius: 20px; /*Bordas da DIV arredondadas*/
 }
+
+/*Fonte Importado*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 
 /* Configuração do TEXTO */
