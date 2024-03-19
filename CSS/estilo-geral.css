@@ -70,16 +70,15 @@ div#exemplo {
 
 /*Estilo das linhas de código para usuário*/
 pre {
+    background-color: antiquewhite;
     width: 100%;
+    height: auto;
 }
 code {
+    display: block;
     font-family: "Fira Code", monospace;
     background-color: black;
-    text-align: left;
-    width: auto;
-    display: block;
     color: white;
-    
 }
 span.cor1 {
     color: rgba(0, 255, 0, 0.7);
