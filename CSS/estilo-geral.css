@@ -34,6 +34,10 @@ div#texto {
         width: 100%;
         margin-left: 0;
     }
+    pre, code {
+        display: flexbox;
+        width: 100%;
+    }
 
 }
 
@@ -70,12 +74,11 @@ div#exemplo {
 
 /*Estilo das linhas de código para usuário*/
 pre {
-    background-color: antiquewhite;
     width: 100%;
-    height: auto;
 }
 code {
     display: block;
+    width: auto;
     font-family: "Fira Code", monospace;
     background-color: black;
     color: white;
