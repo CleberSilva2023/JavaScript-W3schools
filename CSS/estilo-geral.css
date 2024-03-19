@@ -5,10 +5,16 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    background-color: antiquewhite;
+}
+
 div#texto {
+    position: relative;
+    left: 25%;
     background-color: rgb(29, 42, 53); /*Cor da DIV*/
     color: white; /*Cor do texto*/
-    width: auto; /*Largura da DIV*/
+    width: 700px; /*Largura da DIV*/
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7); /*Efeito sombra da DIV*/
     border-radius: 20px; /*Bordas da DIV arredondadas*/
 }
@@ -16,6 +22,19 @@ div#texto {
 /*Fonte Importado*/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
+/*Media-Querie*/
+@media (max-width: 680px) {
+    div#texto {
+        left: 0%;
+        border-radius: 0px;
+        flex-direction: column;
+        align-items: center;
+        margin-right: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
 
 /* Configuração do TEXTO */
 h1, h2, h3 {
@@ -56,10 +75,10 @@ code {
     font-family: "Fira Code", monospace;
     background-color: black;
     text-align: left;
-    width: 680px;
+    width: auto;
     display: block;
     color: white;
-    padding: 10px 0px 10px 20px;
+    
 }
 span.cor1 {
     color: rgba(0, 255, 0, 0.7);
@@ -75,7 +94,7 @@ span.cor3 {
 button {
     position: relative;
     padding: 10px;
-    left: 300px;
+    left: 45%;
     border-radius: 10px;
     background-color: blue;
     color: white;
@@ -132,11 +151,6 @@ tr.tb2:nth-child(odd) {
   }
 
   /*TABELA-DOS-NAVEGADORES*/
-table#navegador{
-    position: relative;
-    width: 680px;
-    left: 10px;
-}
 tr.nv, td.li {
     border: 1px solid white;
     padding: 25px 10px 25px 10px;
