@@ -35,7 +35,7 @@ div#texto {
         margin-left: 0;
     }
     pre, code {
-        display: flexbox;
+        display: flex;
         width: 100%;
     }
 
