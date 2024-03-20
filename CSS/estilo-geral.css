@@ -34,7 +34,7 @@ div#texto {
         width: 100%;
         margin-left: 0;
     }
-    table {
+    table#navegador {
         width: 90%;
     }
 }
