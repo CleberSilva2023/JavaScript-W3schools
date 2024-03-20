@@ -10,8 +10,10 @@ body {
 }
 
 div#texto {
-    position: relative;
-    left: 25%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
     background-color: rgb(29, 42, 53); /*Cor da DIV*/
     color: white; /*Cor do texto*/
     width: 700px; /*Largura da DIV*/
@@ -25,14 +27,13 @@ div#texto {
 /*Media-Querie*/
 @media (max-width: 750px) {
     div#texto {
-        left: 0%;
         border-radius: 0px;
         box-shadow: 0px 0px 0px;
-        flex-direction: column;
-        align-items: center;
-        margin-right: auto;
         width: 100%;
-        margin-left: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 /* Configuração do TEXTO */

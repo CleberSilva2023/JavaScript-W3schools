@@ -94,4 +94,14 @@ let text18 = text17.trimStart();
 
 document.getElementById("demo20").innerHTML = "Length text17 = " + text17.length + "<br>Length text18 = " + text18.length;
 
+//DEMO-21
+let text19 = "     Olá mundo!     ";
+let text20 = text19.trimEnd();
+document.getElementById("demo21").innerHTML = "Comprimento text19 = " + text19.length + "<br>Comprimento text20 = " + text20.length;
+
+//DEMO-22
+let text21 = "5";
+text22 = text21.padStart(4,"0");
+document.getElementById("demo22").innerHTML = text22;
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
