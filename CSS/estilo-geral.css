@@ -34,6 +34,9 @@ div#texto {
         width: 100%;
         margin-left: 0;
     }
+    table {
+        width: 90%;
+    }
 }
 /* Configuração do TEXTO */
 h1, h2, h3 {
