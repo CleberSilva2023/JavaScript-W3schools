@@ -34,16 +34,7 @@ div#texto {
         width: 100%;
         margin-left: 0;
     }
-    code {
-        display: block;
-        width: 95%;
-        font-family: "Fira Code", monospace;
-        background-color: black;
-        color: white;
-    }
-
 }
-
 /* Configuração do TEXTO */
 h1, h2, h3 {
     text-align: center;
