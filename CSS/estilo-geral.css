@@ -34,9 +34,12 @@ div#texto {
         width: 100%;
         margin-left: 0;
     }
-    pre, code {
-        display: flex;
-        width: 100%;
+    code {
+        display: block;
+        width: 95%;
+        font-family: "Fira Code", monospace;
+        background-color: black;
+        color: white;
     }
 
 }
@@ -78,7 +81,7 @@ pre {
 }
 code {
     display: block;
-    width: auto;
+    width: 100%;
     font-family: "Fira Code", monospace;
     background-color: black;
     color: white;
