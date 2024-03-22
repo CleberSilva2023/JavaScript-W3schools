@@ -104,4 +104,13 @@ let text21 = "5";
 text22 = text21.padStart(4,"0");
 document.getElementById("demo22").innerHTML = text22;
 
+//DEMO-23
+let teste = "5";
+document.getElementById("demo23").innerHTML = teste.padStart(4,"x");
+
+//DEMO-24
+let numb = 5;
+let teste2 = numb.toString();
+document.getElementById("demo24").innerHTML = teste2.padStart(4,0);
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

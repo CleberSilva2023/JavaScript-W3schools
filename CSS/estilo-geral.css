@@ -169,12 +169,12 @@ td.icon {
   a {
     padding: 5px;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     transition: 0.5s;
   }
   a:hover {
     transition: 0.5s;
-    color: red;
+    color: rgb(105, 105, 255);
     text-decoration: underline;
   }
 ul#lista {
