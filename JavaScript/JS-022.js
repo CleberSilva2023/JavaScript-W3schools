@@ -113,4 +113,28 @@ let numb = 5;
 let teste2 = numb.toString();
 document.getElementById("demo24").innerHTML = teste2.padStart(4,0);
 
+//DEMO-25
+let text23 = "5";
+text23 = text23.padEnd(4,"0");
+document.getElementById("demo25").innerHTML = text23;
+
+//DEMO-26
+let text24 = "5";
+document.getElementById("demo26").innerHTML = text24.padEnd(4,"x");
+
+//DEMO-27
+let num = 5;
+let texto3 = num.toString();
+document.getElementById("demo27").innerHTML = texto3.padEnd(4,"x");
+
+//DEMO-28
+let texto4 = "Olá mundo!"
+let result = texto4.repeat(2);
+document.getElementById("demo28").innerHTML = result; 
+
+//DEMO-29
+let texto5 = "Olá mundo!";
+let result2 = texto5.repeat(4);
+document.getElementById("demo29").innerHTML = result2;
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

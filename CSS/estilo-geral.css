@@ -68,12 +68,15 @@ div#exemplo {
 }
 
 /*Estilo das linhas de código para usuário*/
+/*As tags <pre> e <code> pode quebrar em telas variáveis. Resolver problema assim que tiver tempo!!!*/
 pre {
-    width: 100%;
+    display: contents;
+    width: 500px;
+    background-color: red;
 }
 code {
     display: block;
-    width: 100%;
+    padding: 20px;
     font-family: "Fira Code", monospace;
     background-color: black;
     color: white;
@@ -141,11 +144,11 @@ tr.tb2 , td.linha {
     border: 1px solid white;
 }
 tr.tb2:nth-child(even) {
-    background-color: rgb(56, 68, 77);
+    background-color: rgb(29, 42, 53); /*rgb(56, 68, 77)*/
   }
   
 tr.tb2:nth-child(odd) {
-    background-color: rgb(29, 42, 53);
+    background-color: rgb(56, 68, 77); /*rgb(29, 42, 53)*/
   }
 
   /*TABELA-DOS-NAVEGADORES*/
