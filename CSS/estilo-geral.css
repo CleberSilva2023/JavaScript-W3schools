@@ -125,6 +125,12 @@ li.nota {
     padding: 10px;
     color: black;
 }
+a.nota {
+    color: black;
+}
+a.nota:hover {
+    color: red;
+}
 
 /*Configurações da TABELA*/
 

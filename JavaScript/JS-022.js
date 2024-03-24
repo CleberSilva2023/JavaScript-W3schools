@@ -137,4 +137,34 @@ let texto5 = "Olá mundo!";
 let result2 = texto5.repeat(4);
 document.getElementById("demo29").innerHTML = result2;
 
+//DEMO-30
+document.getElementById("but03").addEventListener("click", function myFunction() {
+        let texto6 = document.getElementById("demo30").innerHTML;
+        document.getElementById("demo30").innerHTML = texto6.replace("Microsoft", "W3Schools");}
+);
+
+//DEMO-31
+document.getElementById("but04").addEventListener("click", function myFunction() {
+    let texto7 = document.getElementById("demo31").innerHTML;
+    document.getElementById("demo31").innerHTML = texto7.replace("Microsoft", "W3Schools");
+});
+
+//DEMO-32
+document.getElementById("but05").addEventListener ("click", function myFunction() {
+    let t08 = document.getElementById("demo32").innerHTML;
+    document.getElementById("demo32").innerHTML = t08.replace("MICROSOFT", "W3Schools"); 
+});
+
+//DEMO-33
+document.getElementById("but06").addEventListener ("click", function myFunction() {
+    let t09 = document.getElementById("demo33").innerHTML;
+    document.getElementById("demo33").innerHTML = t09.replace(/MICROSOFT/i, "W3Schools")
+});
+
+//DEMO-34
+document.getElementById("but07").addEventListener ("click", function myFunction() {
+    let t10 = document.getElementById("demo34").innerHTML;
+    document.getElementById("demo34").innerHTML = t10.replace(/Microsoft/g, "W3Schools");
+});
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
