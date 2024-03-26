@@ -167,4 +167,30 @@ document.getElementById("but07").addEventListener ("click", function myFunction(
     document.getElementById("demo34").innerHTML = t10.replace(/Microsoft/g, "W3Schools");
 });
 
+//DEMO-35
+let t11 = "Eu adoro gatos. Os gatos são muito fáceis de amar. Os gatos são muito populares."
+t11 = t11.replaceAll("Gatos", "Cachorros");
+t11 = t11.replaceAll("gatos", "cachorros");
+document.getElementById("demo35").innerHTML = t11;
+
+//DEMO-36
+let t12 = "Eu adoro gatos. Os gatos são muito fáceis de amar. Os gatos são muito populares";
+t12 = t12.replaceAll(/Gatos/g, "Cachorros");
+t12 = t12.replaceAll(/gatos/g, "cachorros");
+document.getElementById("demo36").innerHTML = t12;
+
+//DEMO-37
+let t13 = "a,b,c,d,e,f";
+const myArray = t13.split(",");
+document.getElementById("demo37").innerHTML = myArray[0];
+
+//DEMO-38
+let t14 = "Olá Mundo!";
+const myArr = t14.split("");
+t14 = "";
+for (let i = 0; i < myArr.length; i++) {
+    t14 += myArr[i] + "<br>"
+}
+document.getElementById("demo38").innerHTML = t14;
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
