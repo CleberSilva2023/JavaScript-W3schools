@@ -25,13 +25,13 @@ div#texto {
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 /*Media-Querie*/
-@media (max-width: 750px) {
+@media (max-width: 700px) {
     div#texto {
         border-radius: 0px;
         box-shadow: 0px 0px 0px;
         width: 100%;
         position: absolute;
-        top: 50%;
+        
         left: 50%;
         transform: translate(-50%, -50%);
         height: auto;
