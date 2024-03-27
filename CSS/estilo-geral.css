@@ -25,7 +25,7 @@ div#texto {
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 /*Media-Querie*/
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     div#texto {
         border-radius: 0px;
         box-shadow: 0px 0px 0px;
@@ -45,7 +45,9 @@ p {
     font-size: 15pt;
 }
 ul {
+    column-count: 2;
     padding: 0px 20px 0px 50px;
+    column-gap: 20px;
 }
 li {
     padding: 5px;
@@ -69,7 +71,7 @@ div#exemplo {
 /*As tags <pre> e <code> pode quebrar em telas variáveis. Resolver problema assim que tiver tempo!!!*/
 pre {
     display: contents;
-    width: 500px;
+    width: 100%;
     background-color: red;
 }
 code {
@@ -103,6 +105,19 @@ button:hover {
     transition: 1s;
     background-color: red;
     cursor: pointer;
+}
+
+/*Configurações da DIV#botoes*/
+div.botoes {
+    width: 100%;
+    display: flex;
+    
+}
+button#esquerda {
+    left: 18%;
+}
+button#direita {
+    margin-left: 18%;
 }
 
 /*Configurações de NOTA*/
