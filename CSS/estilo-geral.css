@@ -13,7 +13,7 @@ div#texto {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    
+    height: auto;
     background-color: rgb(29, 42, 53); /*Cor da DIV*/
     color: white; /*Cor do texto*/
     width: 700px; /*Largura da DIV*/
@@ -34,6 +34,7 @@ div#texto {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        height: auto;
     }
 }
 /* Configuração do TEXTO */
