@@ -33,8 +33,9 @@ div#texto {
         position: absolute;
         height: auto;
     }
-    ul {
-        column-count: 1;
+    ul#lista {
+        display: flex;
+        flex-direction: column; /* Coloca os itens em uma única coluna por padrão */
     }
 }
 /* Configuração do TEXTO */
@@ -47,10 +48,15 @@ p {
     line-height: 1.5;
     font-size: 15pt;
 }
-ul {
+ul#lista {
+    
     column-count: 2;
     padding: 0px 20px 0px 50px;
     column-gap: 20px;
+}
+ul {
+    padding: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
 }
 li {
     padding: 5px;
