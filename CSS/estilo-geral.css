@@ -33,6 +33,9 @@ div#texto {
         position: absolute;
         height: auto;
     }
+    ul {
+        column-count: 1;
+    }
 }
 /* Configuração do TEXTO */
 h1, h2, h3 {
@@ -43,6 +46,11 @@ p {
     padding: 10px 20px 10px 20px;
     line-height: 1.5;
     font-size: 15pt;
+}
+ul {
+    column-count: 2;
+    padding: 0px 20px 0px 50px;
+    column-gap: 20px;
 }
 li {
     padding: 5px;
