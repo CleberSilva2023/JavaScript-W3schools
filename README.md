@@ -14,3 +14,7 @@
 <li>Exercicio 06 [Página006](https://clebersilva2023.github.io/JavaScript-W3schools/ex006.html).</li>
 
 </ul>
+
+ <ul>
+    <li><a href="https://clebersilva2023.github.io/JavaScript-W3schools/ex001.html" target="_blank">Página001</a></li>
+ </ul>
