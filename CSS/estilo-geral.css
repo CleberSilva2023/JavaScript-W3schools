@@ -178,6 +178,9 @@ tr.tb2:nth-child(odd) {
   }
 
   /*TABELA-DOS-NAVEGADORES*/
+table#navegador {
+    width: 100%;
+}  
 tr.nv, td.li {
     border: 1px solid white;
     padding: 25px 10px 25px 10px;
