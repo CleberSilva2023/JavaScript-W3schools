@@ -79,17 +79,15 @@ div#exemplo {
 /*Estilo das linhas de código para usuário*/
 /*As tags <pre> e <code> pode quebrar em telas variáveis. Resolver problema assim que tiver tempo!!!*/
 pre {
-    display: contents;
-    width: 100%;
-    background-color: red;
+    background-color: black;
 }
 code {
-    display: block;
+    position: relative;
     padding: 20px;
     font-family: "Fira Code", monospace;
-    background-color: black;
     color: white;
 }
+
 span.cor1 {
     color: rgba(0, 255, 0, 0.7);
 }
