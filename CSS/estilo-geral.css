@@ -10,7 +10,6 @@ body {
 }
 
 div#texto {
-    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -26,7 +25,7 @@ div#texto {
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 /*Media-Querie*/
-@media (max-width: 780px) {
+@media (max-width: 768px) {
     div#texto {
         border-radius: 0px;
         box-shadow: 0px 0px 0px;
@@ -77,8 +76,6 @@ div#exemplo {
     background-color: rgb(56, 68, 77);
 }
 
-/*Estilo das linhas de código para usuário*/
-/*As tags <pre> e <code> pode quebrar em telas variáveis. Resolver problema assim que tiver tempo!!!*/
 pre {
     background-color: black;
 }
@@ -101,9 +98,10 @@ span.cor3 {
 
 /*Configuração do Botão*/
 button {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     padding: 10px;
-    left: 45%;
     border-radius: 10px;
     background-color: blue;
     color: white;
@@ -119,13 +117,13 @@ button:hover {
 div.botoes {
     width: 100%;
     display: flex;
-    
+    justify-content: space-between;
 }
 button#esquerda {
-    left: 18%;
+    margin-left: 25px;
 }
 button#direita {
-    margin-left: 18%;
+    margin-right: 25px;
 }
 
 /*Configurações de NOTA*/
@@ -160,12 +158,11 @@ table {
     border-collapse: collapse;
     min-width: 0; /* Remove larguras mínimas que possam forçar a expansão */
 }
-tr, td {
-    padding: 15px;
-    text-align: left;
+td {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
 }
 table#tabela {
-    width: 100%;
     color: white;
     border-collapse: collapse;
     min-width: 0; /* Remove larguras mínimas que possam forçar a expansão */
@@ -182,19 +179,51 @@ tr.tb2:nth-child(odd) {
   }
 
   /*TABELA-DOS-NAVEGADORES*/
-table#navegador {
-    width: 100%;
-    min-width: 0; /* Remove larguras mínimas que possam forçar a expansão */
-}  
 tr.nv, td.li {
     border: 1px solid white;
-    padding: 25px 10px 25px 10px;
+   
 }
-td.icon {
-    padding: 10px 0px 10px 10px;
-    margin: 0px;
+td.iconC {
+    padding: 25px 0px 25px 0px;
     border: 1px solid white;
-}
+    background-image: url("Chrome.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+  }
+td.iconE {
+    
+    border: 1px solid white;
+    background-image: url("Edge.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+  }
+td.iconF {
+    
+    border: 1px solid white;
+    background-image: url("Firefox.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+  }
+td.iconS {
+    
+    border: 1px solid white;
+    background-image: url("Safári.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+  }
+td.iconO {
+    
+    border: 1px solid white;
+    background-image: url("Opera.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+  }
+  
 
   /*Configuração do Sumário*/
   div#sumário {
