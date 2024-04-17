@@ -37,9 +37,12 @@ div#texto {
         display: flex;
         flex-direction: column; /* Coloca os itens em uma única coluna por padrão */
     }
-    div.botoes {
-        flex-direction: column;
-    }
+    div.botoes > button#esquerda {
+        width: 50%;
+     }
+     div.botoes > button#direita {
+        width: 50%;
+     }
 }
 /* Configuração do TEXTO */
 h1, h2, h3 {
@@ -118,16 +121,15 @@ button:hover {
 
 /*Configurações da DIV#botoes*/
 div.botoes {
-    display: flex;
-    justify-content: space-around; /* Espalha os botões uniformemente */
-    align-items: center; /* Centraliza verticalmente */
-    background-color: aqua;
-    width: 100%;
-    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas de largura igual */
+    padding: 10px;
 }
-button#esquerda, button#direita {
-    flex: 1; /* Faz cada botão ocupar espaço igual na div */
-    margin: 5px;
+button#esquerda {
+   width: 35%;
+}
+button#direita {
+   width: 35%;
 }
 
 
