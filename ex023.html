@@ -10,10 +10,111 @@
     <div id="texto">
         <h1>Pesquisa de string JavaScript</h1>
         <div class="botoes">
-            <button id="esquerda">Botão 1</button>
-            <button id="direita">Botão 2</button>
-        </div>        
+            <button id="esquerda" onclick="window.location.href='ex022.html'">Anterior</button>
+            <button id="direita" onclick="window.location.href='ex024.html'">Próximo</button>
+        </div>
+        
+        <div id="sumário">
+            <h1>Métodos de pesquisa de strings</h1>
+            <ul class="lista">
+                <a href="#t01">
+                    <li class="item">String indexOf()</li>
+                </a>
+                <a href="#t02">
+                    <li class="item">String lastIndexOf()</li>
+                </a>
+                <a href="#t03">
+                    <li class="item">String search()</li>
+                </a>
+                <a href="#t04">
+                    <li class="item">String match()</li>
+                </a>
+                <a href="#t05">
+                    <li class="item">String matchAll()</li>
+                </a>
+                <a href="#t06">
+                    <li class="item">String includes()</li>
+                </a>
+                <a href="#t07">
+                    <li class="item">String startsWith()</li>
+                </a>
+                <a href="#t08">
+                    <li class="item">String endsWith()</li>
+                </a>
+            </ul>
+        </div>
+
+        <h1 id="t01">String JavaScript indexOf()</h1>
+        <p>O <span>indexOf()</span> método retorna o índice (posição) da primeira ocorrência de uma string em uma string ou retorna -1 se a string não for encontrada:</p>
+
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+
+            <h1>Cadeias de caracteres em JavaScript</h1>
+            <h2>O Método indexOf()</h2>
+            <p>O método indexOf() retorna a posição da primeira ocorrência de uma string em uma string.</p>
+            <p>A posição da primeira ocorrência de "locate" é:</p>
+            <p id="demo"></p>
+        </div>
+
+        <div class="nota">
+            <h1 class="nota">Observação</h1>
+            <p class="nota">JavaScript conta posições a partir de zero.</p>
+            <p class="nota">0 é a primeira posição em uma string, 1 é a segunda, 2 é a terceira, ...</p>
+        </div>
+
+        <hr>
+
+        <h1 id="t02">String JavaScript lastIndexOf()</h1>
+        <p>O <span>lastIndexOf()</span> método retorna o índice da última ocorrência de um texto especificado em uma string:</p>
+
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+
+            <h1>Cadeias de caracteres em JavaScript</h1>
+            <h2>O Método lastIndexOf()</h2>
+            <p>A posição da última ocorrência de "locate" é:</p>
+            <p id="demo02"></p>
+        </div>
+
+        <p>Ambos <span>indexOf()</span> e <span>lastIndexOf()</span> retornam -1 se o texto não for encontrado:</p>
+
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+
+            <h1>Cadeias de caracteres em JavaScript</h1>
+            <h2>O Método indexOf()</h2>
+            <p>Ambos os métodos indexOf() e lastIndexOf() retornam -1 se o texto não for encontrado:</p>
+            <p id="demo03"></p>
+        </div>
+        <p>Ambos os métodos aceitam um segundo parâmetro como posição inicial da pesquisa:</p>
+
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+
+            <h1>Cadeias de caracteres em JavaScript</h1>
+            <h2>O método indexOf()</h2>
+            <p>O método indexOf() aceita um segundo parâmetro como a posição inicial para a pesquisa:</p>
+            <p id="demo04"></p>
+        </div>
+        <p>O <span>lastIndexOf()</span> método pesquisa de trás para frente (do final para o início), ou seja: se o segundo parâmetro for <span>15</span>, a pesquisa começa na posição 15 e pesquisa até o início da string.</p>
+
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+
+            <h1>Cadeias de caracteres em JavaScript</h1>
+            <h2>O método lastIndexOf()</h2>
+            <p>O método lastIndexOf() aceita um segundo parâmetro como a posição inicial para a pesquisa.</p>
+            <p>Lembre-se de que o método lastIndexOf() pesquisa de trás para frente, portanto, a posição 15 significa iniciar a pesquisa na posição 15 e pesquisar até o início.</p>
+            <p id="demo05"></p>
+        </div>
+
+        <hr>
+
+        <h1 id="t03">Pesquisa de string JavaScript()</h1>
+
     </div>
    
+    <script src="JavaScript/JS-023.js"></script>
 </body>
 </html>
