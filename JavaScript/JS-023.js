@@ -53,4 +53,51 @@ let tx11 = "A chuva em ESPANHA fica principalmente na planície. Tendo semas de 
 const myArr04 = tx11.match(/uva/gi);
 document.getElementById("demo11").innerHTML = myArr04.length + " " + myArr04;
 
+//DEMO-12
+let tx12 = "Eu adoro gatos. Os Gatos são muito fáceis de amar. Os Gatos são muito populares.";
+const iterator = tx12.matchAll("Gatos");
+document.getElementById("demo12").innerHTML = Array.from(iterator);
+
+//DEMO-13
+let tx13 = "Eu adoro gatos. Os Gatos são muito fáceis de amar. Os Gatos são muito populares.";
+const iterator02 = tx13.matchAll(/Gatos/g);
+document.getElementById("demo13").innerHTML = Array.from(iterator02);
+
+//DEMO-14
+let tx14 = "Eu adoro gatos. Os Gatos são muito fáceis de amar. Os Gatos são muito populares.";
+const iterator03 = tx14.matchAll(/Gatos/gi);
+document.getElementById("demo14").innerHTML = Array.from(iterator03);
+
+//DEMO-15
+let tx15 = "Olá mundo, bem-vindo ao universo.";
+document.getElementById("demo15").innerHTML = tx15.includes("mundo");
+
+//DEMO-16
+let tx16 = "Olá mundo, bem-vindo ao universo.";
+document.getElementById("demo16").innerHTML = tx16.includes("mundo", 12)
+
+//DEMO-17
+let tx17 = "Olá mundo, bem-vindo ao universo.";
+document.getElementById("demo17").innerHTML = tx17.startsWith("Olá")
+
+//DEMO-18
+let tx18 = "Olá mundo, bem-vindo ao universo.";
+document.getElementById("demo18").innerHTML = tx18.startsWith("mundo");
+
+//DEMO-19
+let tx19 = "Olá mundo, bem-vindo ao universo.";
+document.getElementById("demo19").innerHTML = tx19.startsWith("mundo", 5);
+
+//DEMO-20
+let tx20 = "Olá mundo, bem-vindo ao universo.";
+document.getElementById("demo20").innerHTML = tx20.startsWith("mundo", 4);
+
+//DEMO-21
+let tx21 = "Joe Doe";
+document.getElementById("demo21").innerHTML = tx21.endsWith("Doe");
+
+//DEMO-22
+let tx22 = "Olá mundo, bem-vindo ao universo.";
+document.getElementById("demo22").innerHTML = tx22.endsWith("mundo", 9);
+
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
