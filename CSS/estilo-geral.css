@@ -82,16 +82,23 @@ div#exemplo {
     background-color: rgb(56, 68, 77);
 }
 
+/*CÓDIGOS*/
 pre {
     background-color: black;
 }
 code {
     position: relative;
-    padding: 20px;
     font-family: "Fira Code", monospace;
     color: white;
 }
-
+P.codigos {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 20px solid rgb(56, 68, 77);
+    border-radius: 15px;
+    margin: 10px;
+}
 span.cor1 {
     color: rgba(0, 255, 0, 0.7);
 }
@@ -101,6 +108,13 @@ span.cor2 {
 span.cor3 {
     color: rgb(255, 55, 0);
 }
+b.cor4 {
+    color: rgb(100, 182, 255);
+}
+b.cor5 {
+    color: rgb(213, 127, 43);
+}
+/*CÓDIGOS*/
 
 /*Configuração do Botão*/
 button {
