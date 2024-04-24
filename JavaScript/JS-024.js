@@ -27,5 +27,17 @@ let VAT = 0.25;
 let total = `total: ${(preço * (1 + VAT)).toFixed(2)}`;
 document.getElementById("demo05").innerHTML = total;
 
+//DEMO-06
+let header = `“Template Strings” (cadeias de modelos)`;
+let tags = ["template strings", "javascript", "es6"];
+
+let html = `<h2>${header}</h2><ul>`;
+for (const x of tags) {
+    html += `<li>${x}</li>`;
+}
+
+html += `</ul>`;
+document.getElementById("demo06").innerHTML = html;
+
 
 //A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

@@ -23,6 +23,9 @@ div#texto {
 
 /*Fonte Importado*/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+:root {
+    --code: url('CONSOLA.TTF');
+}
 
 /*Media-Querie*/
 @media (max-width: 768px) {
@@ -88,16 +91,22 @@ pre {
 }
 code {
     position: relative;
-    font-family: "Fira Code", monospace;
+    font-family : "Courier New", Courier, monospace;
     color: white;
 }
 P.codigos {
+    font-family : "Courier New", Courier, monospace;
+    font-size: 400;
     padding: 10px;
     background-color: black;
     color: white;
     border: 20px solid rgb(56, 68, 77);
     border-radius: 15px;
     margin: 10px;
+}
+p.code {
+    font-family: var("code");
+    background-color: black;
 }
 span.cor1 {
     color: rgba(0, 255, 0, 0.7);

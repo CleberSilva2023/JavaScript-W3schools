@@ -97,14 +97,13 @@
 
         <div id="exemplo">
             <h1>Exemplo</h1>
-            <pre>
-                <code>
-                    <span class="cor2">let</span> price = <b class="cor4">10</b>;
+            <p class="code">
+                <span class="cor2">let</span> price = <b class="cor4">10</b>;
+                <br>
                     <span class="cor2">let</span> VAT = <b class="cor4">0.25</b>;
-
+                    <br>
                     let total = <b class="cor5">`Total: ${(price * (1 + VAT)).toFixed(2)}`</b>;
-                </code>
-            </pre>
+            </p>
 
             <h1>Cordas de Templates em JavaScript</h1>
             <p>Os templates permitem variáveis em strings:</p>
@@ -119,6 +118,34 @@
         <hr>
 
         <h1>Modelos HTML</h1>
+
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+
+            <p class="code">
+                <span class="cor2">let</span> header = <span class="cor1">"Template Strings"</span>;
+                <br>
+                <span class="cor2">let</span> tags = [<span class="cor1">"template strings"</span>, <span class="cor1">"javascript"</span>, <span class="cor1">"es6"</span>];
+                <br>
+
+                <span class="cor2">let</span> html = <b class="cor5">`&#8249;h2&#8250;${header}&#8249;/h2&#8250;&#8249;ul&#8250;`</b>;
+                <br>
+                <span class="cor2">for</span> (<span class="cor2">const</span> x of tags) {
+                <br>    
+                html += <b class="cor5">`&#8249;li&#8250;${x}&#8249;/li&#8250;`</b>;
+                <br>
+                }
+                <br>
+                html += <b class="cor5">`&#8249;/ul&#8250;`</b>;
+            </p>
+
+            <h1>Cadeias de caracteres de modelos em JavaScript</h1>
+            <p>Os templates permitem variáveis em strings:</p>
+
+            <p id="demo06"></p>
+
+            <p>Os templates não são suportados no Internet Explorer.</p>
+        </div>
 
         <script src="JavaScript/JS-024.js"></script>
     </div>
