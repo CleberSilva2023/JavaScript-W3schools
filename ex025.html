@@ -37,6 +37,69 @@
 
         <p>Números extragrandes ou extrapequenos podem ser escritos com notação científica (expoente):</p>
 
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+            <h2>Números em JavaScript</h2>
+            <p>Números extra grandes ou extra pequenos podem ser escritos com notação científica (expoente):</p>
+            <p id="demo02"></p>
+        </div>
+
+        <hr>
+
+        <h1>Os números JavaScript são sempre de ponto flutuante de 64 bits</h1>
+
+        <p>Ao contrário de muitas outras linguagens de programação, JavaScript não define diferentes tipos de números, como inteiros, curtos, longos, ponto flutuante, etc.</p>
+
+        <p>Os números JavaScript são sempre armazenados como números de ponto flutuante de precisão dupla, seguindo o padrão internacional IEEE 754.</p>
+
+        <p>Este formato armazena números em 64 bits, onde o número (a fração) é armazenado nos bits 0 a 51, o expoente nos bits 52 a 62 e o sinal no bit 63:</p>
+
+        <table id="tabela">
+            <tr class="tb2">
+                <td class="linha">Valor (também conhecido como Fração/Mantissa)</td>
+                <td class="linha">Expoente</td>
+                <td class="linha">Sinal</td>
+            </tr>
+            <tr class="tb2">
+                <td class="linha">52 bits (0 - 51) 	</td>
+                <td class="linha">11 bits (52 - 62)</td>
+                <td class="linha">1 bit (63)</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h1>Precisão Inteira</h1>
+        <p>Inteiros (números sem ponto ou notação de expoente) têm precisão de até 15 dígitos.</p>
+
+        <div id="exemplo">
+            <h1>Exemplo</h1>
+            <h1>Números em JavaScript</h1>
+            <h2>Precisão de números inteiros</h2>
+            <p>Os números inteiros (números sem ponto ou notação de expoente) têm precisão de até 15 dígitos:</p>
+            <p id="demo03"></p>
+        </div>
+
+        <p>O número máximo de decimais é 17.</p>
+
+        <h1>Precisão flutuante</h1>
+
+        <div id="exemplo">
+            <h1>Números em JavaScript</h1>
+            <h2>Precisão do ponto flutuante</h2>
+            <p>A aritmética de ponto flutuante nem sempre é 100% precisa.</p>
+            <p id="demo04"></p>
+        </div>
+
+        <div id="exemplo">
+            <h2>Números em JavaScript</h2>
+            <p>A aritmética de ponto flutuante nem sempre é 100% precisa:</p>
+            <p id=“demo05”></p>
+
+            <p>Mas ajuda a multiplicar e dividir:</p>
+            <p id="demo06"></p> <!--NÃO FUNCIONOU, ACHAR ERRO DEPOIS!!!-->
+        </div>
+
     </div>
 
     <script src="JavaScript/JS-025.js"></script>
