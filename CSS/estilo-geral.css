@@ -1,10 +1,15 @@
 @charset "UTF-8";
+/*Fonte Importado*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+/*Fonte Importado*/
+
 /* Configuração GLOBAL */
 * {
     font-family: sans-serif;
     padding: 0px;
     margin: 0px;
 }
+
 body {
     background-color: antiquewhite;
 }
@@ -20,9 +25,6 @@ div#texto {
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7); /*Efeito sombra da DIV*/
     border-radius: 20px; /*Bordas da DIV arredondadas*/
 }
-
-/*Fonte Importado*/
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 /*Media-Querie*/
 @media (max-width: 768px) {
